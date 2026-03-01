@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import type { Node } from "./types";
 import { fetchNodes } from "./api";
 
-const POLL_INTERVAL = 10_000;
+const POLL_INTERVAL = 2_000;
 
 export function useNodes() {
   const [nodes, setNodes] = useState<Node[]>([]);

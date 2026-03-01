@@ -8,7 +8,7 @@ const char* WIFI_SSID     = "antegamhsoufapa";
 const char* WIFI_PASSWORD = "12345678";
 
 // ── Server endpoint ──
-const char* SERVER_URL = "http://10.47.60.90:5000/node";
+const char* SERVER_URL = "http://10.47.6.90:5000/node";
 
 // ── Node identity ──
 const int NODE_ID = 1;
