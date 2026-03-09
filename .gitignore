@@ -25,3 +25,7 @@ dist-ssr
 
 # Backend cache
 backend/utils/__pycache__
+
+# KiCad files
+sensor/fp-info-cache
+sensor/sensor-backups
