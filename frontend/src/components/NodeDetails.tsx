@@ -3,8 +3,6 @@ import type { Node } from "../types";
 import { setSprinkler } from "../api";
 import { Droplets, Thermometer, Wind, Sprout, Power, WifiOff } from "lucide-react";
 
-const OFFLINE_THRESHOLD_MS = 60_000;
-
 interface Props {
   node: Node | null;
   onUpdate: (node_id: number, sprinkler_status: boolean) => void;
